@@ -30,16 +30,16 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 via-white to-indigo-50">
+    <div className="min-h-screen flex items-center justify-center bg-white from-indigo-50 via-white to-indigo-50">
       <div className="container px-4 mx-auto">
         <div className="flex flex-col lg:flex-row items-center max-w-6xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
           {/* Left side - Illustration */}
           <div className="lg:w-1/2 p-8 lg:p-12 bg-indigo-50">
             <img
-              src="/src/components/images/loginui.png"
+              src="/src/components/images/loginui2.png"
               alt="School Management Illustration"
               className="w-full h-auto object-contain animate-fade-in"
-              style={{ transform: "scale(1.2)" }} // Adjust the scale value as needed
+              style={{ transform: "scale(1.3)" }} // Adjust the scale value as needed
             />
           </div>
 

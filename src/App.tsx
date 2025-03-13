@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import NewAdmission from "./pages/NewAdmission";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import ForgotPassword from "./pages/ForgotPassword";
 import Sidebar from "./components/Sidebar";
 import { LogIn } from "lucide-react";
 
@@ -52,6 +53,10 @@ const App = () => (
           <Route 
             path="/register" 
             element={<Register />} 
+          />
+          <Route 
+            path="/forgot-password" 
+            element={<ForgotPassword />}
           />
 
 
